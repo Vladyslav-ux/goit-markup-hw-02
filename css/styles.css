@@ -21,6 +21,12 @@ body {
     color: black;
 }
 
-.hero-title, .features-title, .work-title {
+/* Hero */
+.hero-title{
+    color: #212121;
+}
+
+
+.section-title {
     color: #212121;
 }
