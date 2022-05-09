@@ -18,11 +18,12 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --primary-bg-color: #ffffff;
 }
 
 
 body {
-        background-color: #fff;
+        background-color: var(--primary-bg-color);
     color: #757575;
 }
 
@@ -54,4 +55,17 @@ body {
 /* Features */
 .feature-list .title {
     color: #212121 ;
-}
+
+    
+    /* Examples */
+
+    .work-list {
+        color: var(--title-text-color) ;
+    }
+
+    /* Button */
+
+    .button {
+        color: var(--title-text-color);
+        background-color: var(--primary-bg-color);
+    }
