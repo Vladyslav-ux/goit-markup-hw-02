@@ -27,6 +27,10 @@ body {
     color: #757575;
 }
 
+ul {
+    list-style: none;
+}
+
 
 .list {
     list-style: none;
