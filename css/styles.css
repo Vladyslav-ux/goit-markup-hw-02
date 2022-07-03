@@ -46,9 +46,16 @@ ul {
     color: var(--title-text-color);
 }
 
+
+
 /* Site nav */
 .site-nav .link {
     color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+ color: #2196F3;
 }
 
 
@@ -62,9 +69,13 @@ ul {
     color: #212121;
 }
 
+
+
+
+
 /* Features */
 .feature-list .title {
-    color: #212121 ;
+    color: #21212 ;
 }
     
     /* Examples */
