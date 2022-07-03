@@ -46,6 +46,12 @@ ul {
     color: var(--title-text-color);
 }
 
+/* Site nav */
+.site-nav .link {
+    color: #212121;
+}
+
+
 /* Hero */
 .hero-title{
     color: #212121;
