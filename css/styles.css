@@ -61,12 +61,12 @@ ul {
 
 /* Hero */
 .hero-title{
-    color: #212121;
+    color:var(--title-text-color);
 }
 
 /* Section*/
 .section-title {
-    color: #212121;
+    color:var(--title-text-color);
 }
 
 
@@ -75,10 +75,12 @@ ul {
 
 /* Features */
 .feature-list .title {
-    color: #212121 ;
+    color:var(--title-text-color);
 }
     
-
+.feature-list .link {
+    color: var(--accent-color);
+}
 
 
 
@@ -86,7 +88,7 @@ ul {
     /* Examples */
 
     .work-list .title {
-        color: var(--title-text-color) ;
+        color: var(--title-text-color);
     }
 
     /* Button */
@@ -97,7 +99,7 @@ ul {
     }
 
     .button.primary {
-        background-color: var(--primary-text-color);
-        color: var(--title-text-color);
+        background-color: var(--accent-color);
+        color: var(--primary-bg-color);
 
     }
