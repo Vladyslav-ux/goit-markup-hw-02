@@ -102,3 +102,8 @@ ul {
         color: var(--primary-white-color);
         background-color: var(--accent-color);
     }
+
+    .button.secondary {
+        color: var(--accent-color);
+        background-color: var(--primary-white-color);
+    }
