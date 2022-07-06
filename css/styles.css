@@ -58,6 +58,9 @@ ul {
  color: #2196F3;
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
 
 /* Hero */
 .hero-title{
