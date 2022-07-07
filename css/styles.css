@@ -47,14 +47,23 @@ ul {
 
 .logo-title {
     color: var(--accent-color);
+    font-family: Raleway, ;
+    
+   
 }
 .logo {
     color: var(--title-text-color);
-    font-family: Raleway, cursive;
+    font-family: Raleway, ;
 
     
-font-size: 26px;
-line-height: 1.19;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
 }
 
 
@@ -86,7 +95,15 @@ line-height: 1.17;
 /* Hero */
 .hero-title{
     color:var(--title-text-color);
-   
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Section*/
@@ -127,13 +144,14 @@ line-height: 1.17;
         color: var(--primary-white-color);
         background-color: var(--accent-color);
         
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-
-text-align: center;
-letter-spacing: 0.03em;
-
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        align-items: center;
+        text-align: center;
+       
     }
 
     .button.secondary {
