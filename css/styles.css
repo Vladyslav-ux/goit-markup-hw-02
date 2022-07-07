@@ -25,7 +25,12 @@
 body {
         background-color: var(--primary-bg-color);
     color: #757575;
+
+    font-family: Roboto, sans-serif;
 }
+
+
+
 
 ul {
     list-style: none;
@@ -38,12 +43,23 @@ ul {
 
 
 
+/* Logo */
 
 .logo-title {
     color: var(--accent-color);
 }
 .logo {
     color: var(--title-text-color);
+    font-family: Raleway, cursive;
+
+    
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
 }
 
 
