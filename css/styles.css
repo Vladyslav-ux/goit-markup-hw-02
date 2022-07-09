@@ -27,9 +27,18 @@ body {
     color: #757575;
 
     font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+
 }
 
+.link {
+	text-decoration: none;
+}
 
+.list {
+	list-style-type: none;
+}
 
 
 ul {
@@ -109,7 +118,12 @@ line-height: 1.17;
 /* Section*/
 .section-title {
     color:var(--title-text-color);
-}
+   
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+   
 
 
 
@@ -158,3 +172,5 @@ line-height: 1.17;
         color: var(--accent-color);
         background-color: var(--primary-white-color);
     }
+
+   
