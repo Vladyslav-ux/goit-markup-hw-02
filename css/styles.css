@@ -32,6 +32,8 @@ body {
 
 }
 
+/*eset styles*/
+
 .link {
 	text-decoration: none;
 }
@@ -41,22 +43,12 @@ body {
 }
 
 
-ul {
-    list-style: none;
-}
-
-
-.list {
-    list-style: none;
-}
-
-
 
 /* Logo */
 
 .logo-title {
     color: var(--accent-color);
-    font-family: Raleway, ;
+    font-family: Raleway, sans-serif;
     
    
 }
@@ -124,7 +116,7 @@ line-height: 1.17;
     line-height: 1.16;
     text-align: center;
    
-
+}
 
 
 
@@ -173,4 +165,15 @@ line-height: 1.17;
         background-color: var(--primary-white-color);
     }
 
-   
+   .title {
+    color: var(--title-text-color);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+   }
