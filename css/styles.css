@@ -228,6 +228,7 @@ background-color: #2F303A;;
     
    }
 
+    /* Cards */
    .cards {
        color: var(--title-text-color);
 
@@ -240,3 +241,17 @@ background-color: #2F303A;;
        letter-spacing: 0.06em;
        
    }
+
+    /* Cards our */
+    .our {
+        color: var(--primary-text-color);
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+
+        letter-spacing: 0.03em;
+
+    }
