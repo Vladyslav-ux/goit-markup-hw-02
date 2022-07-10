@@ -20,6 +20,7 @@
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
     --primary-rgba-color: rgba(255, 255, 255, 0.6);
+    --accent-logo-color: #000000;
     
 }
 
@@ -54,10 +55,9 @@ body {
     
    
 }
-.logo {
-    color: var(--title-text-color);
-    font-family: Raleway, ;
 
+.logoblack {
+    color: var(--accent-logo-color);
     
     font-family: 'Raleway';
     font-style: normal;
