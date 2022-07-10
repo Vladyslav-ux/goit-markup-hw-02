@@ -19,7 +19,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
-    --primary-rgba-collor:  rgba(255, 255, 255, 0.6);
+    --primary-rgba-color: rgba(255, 255, 255, 0.6);
     
 }
 
@@ -99,15 +99,7 @@ body {
 }
 
 .mail {
-    color:  var(--primary-rgba-collor)
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-
-    letter-spacing: 0.03em;
+    color: var(--primary-rgba-color)   
 
 }
 
