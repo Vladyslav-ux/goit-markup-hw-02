@@ -227,3 +227,16 @@ background-color: #2F303A;;
     
     
    }
+
+   .cards {
+       color: var(--title-text-color);
+
+       font-family: 'Roboto';
+       font-weight: 700;
+       font-style: normal;
+       font-size: 18px;
+       line-height: 2.0;
+
+       letter-spacing: 0.06em;
+       
+   }
