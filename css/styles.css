@@ -19,6 +19,8 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
+    --primary-rgba-collor:  rgba(255, 255, 255, 0.6);
+    
 }
 
 
@@ -67,6 +69,47 @@ body {
     letter-spacing: 0.03em;
 }
 
+.logo.logo {
+    color: var(--primary-white-color);
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    
+    letter-spacing: 0.03em;
+}
+
+
+ /* Footer */
+
+.adress {
+    color: var(--primary-white-color);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+}
+
+.mail {
+    color:  var(--primary-rgba-collor)
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+}
 
 
 /* Site nav */
@@ -186,7 +229,6 @@ background-color: #2F303A;;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
     
     
     letter-spacing: 0.03em;
