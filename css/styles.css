@@ -48,6 +48,13 @@ body {
 
 
 /* Logo */
+.logo {
+    color: #000000;
+}
+
+.logo:hover {
+    color: #2196F3;
+}
 
 .logo-title {
     color: var(--accent-color);
