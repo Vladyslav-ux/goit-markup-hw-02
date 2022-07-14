@@ -15,27 +15,31 @@
 
 
 :root {
+    /* fonts */
+    --main-font:  Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
     --primary-rgba-color: rgba(255, 255, 255, 0.6);
     --accent-logo-color: #000000;
+    --secondary-bg-color: #F5F4FA;
+    
     
 }
 
 
 body {
-        background-color: var(--primary-bg-color);
-    color: #757575;
-
-    font-family: Roboto, sans-serif;
+    font-family: var(--main-font);
+    color: var(--title-text-color);
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    letter-spacing: 0.03em;
     line-height: 1.71;
-
 }
 
-/*eset styles*/
+/*Reset styles*/
 
 .link {
 	text-decoration: none;
@@ -58,7 +62,7 @@ body {
 
 .logo-title {
     color: var(--accent-color);
-    font-family: Raleway, sans-serif;
+    text-decoration: none;
     
    
 }
@@ -109,6 +113,7 @@ body {
 .mail {
     color: var(--primary-rgba-color)
     
+    
 }
 
 
@@ -143,8 +148,6 @@ text-decoration: none;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    /* or 136% */
-    
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -175,7 +178,7 @@ text-decoration: none;
 
    /* Works */
    .works {
-background-color: #2F303A;;
+background-color: #2F303A;
    }
 
    
@@ -199,7 +202,19 @@ background-color: #2F303A;;
 
     .button {
         color: var(--title-text-color);
-        background-color: var(--primary-white-color);
+        background-color: var(--secondary-bg-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        
+        
+        Border: none;
+        
+        
+
+
     }
 
     .button.primary {
@@ -208,19 +223,38 @@ background-color: #2F303A;;
         
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 1.9;
+        line-height: 1.62;
         align-items: center;
         text-align: center;
+        
+       
+        Border: none;
+
        
     }
 
     .button.secondary {
         color: var(--accent-color);
-        background-color: var(--primary-white-color);
+        background-color: var(--secondary-bg-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        
+        
+        text-align: center;
+        letter-spacing: 0.03em;
+        Border: none;
+        
     }
 
+
+
+
+    
    .title {
     color: var(--title-text-color);
     

@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link 
-    href="https: //fonts.googleapis.com/css2?family= Raleway:wght@700 & family = Roboto:wght@400;500;700;900 & display=swap" 
-    rel="stylesheet"
-    /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+    rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body> 
@@ -32,20 +32,21 @@
     <li><a href="tel:+380961111111" class="logo link">+38 (096) 111-11-11</a></li>
 </ul>  
 </header>  
-
+<main>
 <!--Уникальный контент страницы Portfolio-->
+<section>
 <h1>Уникальный контент страницы Portfolio</h1>
 <ul class="list">
     <li><button type="button primary" class="button primary">Все</button></li>
-    <li><button type="button">Веб-сайты</button></li>
-    <li><button type="button">Приложения</button></li>
-    <li><button type="button">Дизайн</button></li>
-    <li><button type="button">Маркетинг</button></li>
-
+    <li><button type="button" class="button button-secondary">Веб-сайты</button></li>
+    <li><button type="button" class="button button-secondary">Приложения</button></li>
+    <li><button type="button" class="button button-secondary">Дизайн</button></li>
+    <li><button type="button" class="button button-secondary">Маркетинг</button></li>
 </ul>
+</section>
 
-
-<!--Карточки-->    
+<!--Карточки-->  
+    <section>  
     <ul class="list"> 
         <li>
             <img src="./images/img.jpg" alt="" width="370" height="294"><h3 class="cards">Технокряк</h3> 
@@ -84,11 +85,12 @@
             <p lang="en" class="our">Приложение</p>
         </li>
     </ul>
-
+    </section>
+</main>
 <!--Подвал страницы-->
 <footer class="works">
     <p class="list">
-        <a lang="en" href="./index.html" class="logo link">
+        <a lang="en" href="./index.html" class="logo">
             <span class="logo-title">Web</span><span class="logo logo">Studio</span>
             </a>
     </p>
