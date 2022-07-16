@@ -111,11 +111,18 @@ body {
 }
 
 .mail {
-    color: var(--primary-rgba-color)
-    
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
     
 }
 
+
+
+.grey {
+    color: var(--primary-text-color);
+
+    text-decoration: none;
+}
 
 /* Site nav */
 .site-nav .link {
@@ -164,7 +171,17 @@ text-decoration: none;
    
 }
 
+.section {
+color: var(--primary-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
 
+letter-spacing: 0.03em;
+
+}
 
 
 /* Features */
@@ -260,10 +277,9 @@ background-color: #2F303A;
     
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
     
     letter-spacing: 0.03em;
     
