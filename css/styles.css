@@ -36,7 +36,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
-    line-height: 1.71;
+    
 }
 
 /*Reset styles*/
@@ -120,6 +120,12 @@ body {
 
 .grey {
     color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
     text-decoration: none;
 }
@@ -283,13 +289,40 @@ background-color: #2F303A;
     
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
     
     letter-spacing: 0.03em;
     
     
+   }
+
+
+
+   .content {
+   color: var(--title-text-color);
+    
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.14;
+   text-transform: uppercase;
+   letter-spacing: 0.03em;
+   
+   }
+
+   .product {
+       color: var(--primary-text-color);
+
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 1.18;
+       
+       letter-spacing: 0.03em;
    }
 
     /* Cards */
